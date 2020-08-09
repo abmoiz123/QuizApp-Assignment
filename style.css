@@ -1,0 +1,39 @@
+body {
+    background-image: url(images/New-blog-graphic.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.start {
+    margin-top: 10%;
+    text-align: center;
+}
+.quizhd {
+    text-shadow: 5px 5px 5px black;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.startbtndiv {
+    margin-top: 100px;
+}
+.startbtn {
+    border: 2px solid black;
+    font-size: x-large;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    border-radius: 2em;
+    padding-right: 50px;
+    background-color: rgb(65, 105, 225);
+    color: whitesmoke;
+}
+.startbtn:link {
+    text-decoration: none;
+}
+.startbtn:hover {
+    color: rgb(65, 105, 225);
+    background-color: whitesmoke;
+}

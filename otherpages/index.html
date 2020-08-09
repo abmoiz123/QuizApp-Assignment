@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="../bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-1 col-1"></div>
+            <div class="main col-lg-8 col-md-8 col-sm-10 col-10">
+                <h1 class="quizhd">QuizApp</h1>
+                <hr>
+                <div id="Q1">
+                    <p class="ques">Q1) What Is Your Name?</p>
+                    <hr>
+                    <p class="ans">
+                        <input type="radio" onclick="Q1(this)" name="Q1" value="ans1" id="Q1-ans1">
+                        <label for="Q1-ans1" class="anslabl">moiz</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q1(this)" name="Q1" value="ans2" id="Q1-ans2">
+                        <label for="Q1-ans2" class="anslabl">moiz2</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q1(this)" name="Q1" value="ans3" id="Q1-ans3">
+                        <label for="Q1-ans3" class="anslabl">moiz3</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q1(this)" name="Q1" value="ans4" id="Q1-ans4">
+                        <label for="Q1-ans4" class="anslabl">moiz4</label>
+                    </p>
+                    <hr>
+                    <button onclick="next(this)" class="nxt bg-success">NEXT</button>
+                </div>
+                <div id="Q2">
+                    <p class="ques">Q2) What Is Your Father Name?</p>
+                    <hr>
+                    <p class="ans">
+                        <input type="radio" onclick="Q2(this)" name="Q2" value="ans1" id="Q2-ans1">
+                        <label for="Q2-ans1" class="anslabl">Madni</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q2(this)" name="Q2" value="ans2" id="Q2-ans2">
+                        <label for="Q2-ans2" class="anslabl">Madni2</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q2(this)" name="Q2" value="ans3" id="Q2-ans3">
+                        <label for="Q2-ans3" class="anslabl">Madni3</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q2(this)" name="Q2" value="ans4" id="Q2-ans4">
+                        <label for="Q2-ans4" class="anslabl">Madni4</label>
+                    </p>
+                    <hr>
+                    <button onclick="back(this)" class="bck bg-primary">BACK</button>
+                    <button onclick="next(this)" class="nxt bg-success">NEXT</button>
+                </div>
+                <div id="Q3">
+                    <p class="ques">Q3) What Is Your City Name?</p>
+                    <hr>
+                    <p class="ans">
+                        <input type="radio" onclick="Q3(this)" name="Q3" value="ans1" id="Q3-ans1">
+                        <label for="Q3-ans1" class="anslabl">Karachi</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q3(this)" name="Q3" value="ans2" id="Q3-ans2">
+                        <label for="Q3-ans2" class="anslabl">Multan</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q3(this)" name="Q3" value="ans3" id="Q3-ans3">
+                        <label for="Q3-ans3" class="anslabl">Lahore</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q3(this)" name="Q3" value="ans4" id="Q3-ans4">
+                        <label for="Q3-ans4" class="anslabl">Islamabad</label>
+                    </p>
+                    <hr>
+                    <button onclick="back(this)" class="bck bg-primary">BACK</button>
+                    <button onclick="next(this)" class="nxt bg-success">NEXT</button>
+                </div>
+                <div id="Q4">
+                    <p class="ques">Q4) What Is Your Country Name?</p>
+                    <hr>
+                    <p class="ans">
+                        <input type="radio" onclick="Q4(this)" name="Q4" value="ans1" id="Q4-ans1">
+                        <label for="Q4-ans1" class="anslabl">Pakistan</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q4(this)" name="Q4" value="ans2" id="Q4-ans2">
+                        <label for="Q4-ans2" class="anslabl">America</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q4(this)" name="Q4" value="ans3" id="Q4-ans3">
+                        <label for="Q4-ans3" class="anslabl">Turkey</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q4(this)" name="Q4" value="ans4" id="Q4-ans4">
+                        <label for="Q4-ans4" class="anslabl">China</label>
+                    </p>
+                    <hr>
+                    <button onclick="back(this)" class="bck bg-primary">BACK</button>
+                    <button onclick="next(this)" class="nxt bg-success">NEXT</button>
+                </div>
+                <div id="Q5">
+                    <p class="ques">Q5) What Is Your School Name?</p>
+                    <hr>
+                    <p class="ans">
+                        <input type="radio" onclick="Q5(this)" name="Q5" value="ans1" id="Q5-ans1">
+                        <label for="Q5-ans1" class="anslabl">The City Grammer School</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q5(this)" name="Q5" value="ans2" id="Q5-ans2">
+                        <label for="Q5-ans2" class="anslabl">The City School</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q5(this)" name="Q5" value="ans3" id="Q5-ans3">
+                        <label for="Q5-ans3" class="anslabl">Mama Baby Care School</label>
+                    </p>
+                    <p class="ans">
+                        <input type="radio" onclick="Q5(this)" name="Q5" value="ans4" id="Q5-ans4">
+                        <label for="Q5-ans4" class="anslabl">Star Academy School</label>
+                    </p>
+                    <hr>
+                    <button onclick="back(this)" class="bck bg-primary">BACK</button>
+                    <button onclick="finish()" class="nxt bg-success">FINISH</button>
+                </div>
+                <div class="result">
+                    <div>
+                        <h1>YOU HAVE SCORED = </h1>
+                        <h1 id="score"></h1>
+                    </div>
+                    <h1 id="remark"></h1>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-1 col-1"></div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
