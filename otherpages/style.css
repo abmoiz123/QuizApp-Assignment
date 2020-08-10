@@ -78,7 +78,9 @@ button:focus {
     font-size: 80px;
     text-transform: uppercase;
 }
-
+#score {
+    width: 100%;
+}
 .startbtn {
     border: 2px solid black;
     font-size: x-large;
@@ -98,9 +100,6 @@ button:focus {
     color: rgb(65, 105, 225);
     background-color: whitesmoke;
 }
-/* #Q1 {
-    display: none;
-} */
 #Q2, #Q3, #Q4, #Q5 {
     display: none;
 }
