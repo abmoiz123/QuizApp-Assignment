@@ -1,6 +1,8 @@
 body {
     background-image: url(images/New-blog-graphic.jpg);
-    height: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #ddd;
     background-repeat: no-repeat;
     background-size: cover;
     color: whitesmoke;
@@ -19,6 +21,9 @@ body {
     margin-top: 100px;
 }
 .startbtn {
+    position: fixed;
+    bottom: 100px;
+    right: 25%;
     border: 2px solid black;
     font-size: x-large;
     font-weight: bolder;

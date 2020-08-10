@@ -51,24 +51,37 @@ function next(k) {
     var c = k.parentNode.nextElementSibling;
     c.style.display = "block";
 }
-// var scorep = document.getElementById("score")
-// console.log(scorep)
-function finish() {
+function finish(l) {
+    var ad = document.getElementById("remark1")
+    var ab = l.parentNode;
+    ab.style.display = "none";
+    var ac = l.parentNode.nextElementSibling;
+    ac.style.display = "block";
     var a = document.getElementById("score")
     var b = document.getElementById("remark");
-    if (score == 20) {
+    if (score == 0) {
         a.innerText = score;
-        b.innerText = "FAIL"
-        alert("You Have Scored 0 Fail")
+        ad.innerText = "FAIL";
+        b.innerText = "-GRADE"
     }else if (score == 20) {
-        alert("You Have Scored 20 Fail")
+        a.innerText = score;
+        ad.innerText = "PASS"
+        b.innerText = "D-GRADE"
     }else if (score == 40) {
-        alert("You Have Scored 40 C-Grade")
+        a.innerText = score;
+        ad.innerText = "PASS";
+        b.innerText = "C-GRADE"
     }else if (score == 60) {
-        alert("You Have Scored 60 B-Grade")
+        a.innerText = score;
+        ad.innerText = "PASS";
+        b.innerText = "B-GRADE"
     }else if (score == 80) {
-        alert("You Have Scored 80 A-Grade")
+        a.innerText = score;
+        ad.innerText = "PASS";
+        b.innerText = "A-GRADE"
     }else if (score == 100) {
-        alert("You Have Scored 100 A++-Grade")
+        a.innerText = score;
+        ad.innerText = "PASS";
+        b.innerText = "A+ -GRADE"
     }
 }

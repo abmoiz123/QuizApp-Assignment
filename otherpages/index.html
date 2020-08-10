@@ -17,45 +17,45 @@
                 <h1 class="quizhd">QuizApp</h1>
                 <hr>
                 <div id="Q1">
-                    <p class="ques">Q1) What Is Your Name?</p>
+                    <p class="ques">Q1) If 10 - 9 What Is Remaining Number?</p>
                     <hr>
                     <p class="ans">
                         <input type="radio" onclick="Q1(this)" name="Q1" value="ans1" id="Q1-ans1">
-                        <label for="Q1-ans1" class="anslabl">moiz</label>
+                        <label for="Q1-ans1" class="anslabl">1</label>
                     </p>
                     <p class="ans">
                         <input type="radio" onclick="Q1(this)" name="Q1" value="ans2" id="Q1-ans2">
-                        <label for="Q1-ans2" class="anslabl">moiz2</label>
+                        <label for="Q1-ans2" class="anslabl">6</label>
                     </p>
                     <p class="ans">
                         <input type="radio" onclick="Q1(this)" name="Q1" value="ans3" id="Q1-ans3">
-                        <label for="Q1-ans3" class="anslabl">moiz3</label>
+                        <label for="Q1-ans3" class="anslabl">9</label>
                     </p>
                     <p class="ans">
                         <input type="radio" onclick="Q1(this)" name="Q1" value="ans4" id="Q1-ans4">
-                        <label for="Q1-ans4" class="anslabl">moiz4</label>
+                        <label for="Q1-ans4" class="anslabl">7</label>
                     </p>
                     <hr>
                     <button onclick="next(this)" class="nxt bg-success">NEXT</button>
                 </div>
                 <div id="Q2">
-                    <p class="ques">Q2) What Is Your Father Name?</p>
+                    <p class="ques">Q2) If 10 - 5 What Is Remaining Number?</p>
                     <hr>
                     <p class="ans">
                         <input type="radio" onclick="Q2(this)" name="Q2" value="ans1" id="Q2-ans1">
-                        <label for="Q2-ans1" class="anslabl">Madni</label>
+                        <label for="Q2-ans1" class="anslabl">5</label>
                     </p>
                     <p class="ans">
                         <input type="radio" onclick="Q2(this)" name="Q2" value="ans2" id="Q2-ans2">
-                        <label for="Q2-ans2" class="anslabl">Madni2</label>
+                        <label for="Q2-ans2" class="anslabl">20</label>
                     </p>
                     <p class="ans">
                         <input type="radio" onclick="Q2(this)" name="Q2" value="ans3" id="Q2-ans3">
-                        <label for="Q2-ans3" class="anslabl">Madni3</label>
+                        <label for="Q2-ans3" class="anslabl">10</label>
                     </p>
                     <p class="ans">
                         <input type="radio" onclick="Q2(this)" name="Q2" value="ans4" id="Q2-ans4">
-                        <label for="Q2-ans4" class="anslabl">Madni4</label>
+                        <label for="Q2-ans4" class="anslabl">50</label>
                     </p>
                     <hr>
                     <button onclick="back(this)" class="bck bg-primary">BACK</button>
@@ -128,14 +128,17 @@
                     </p>
                     <hr>
                     <button onclick="back(this)" class="bck bg-primary">BACK</button>
-                    <button onclick="finish()" class="nxt bg-success">FINISH</button>
+                    <button onclick="finish(this)" class="nxt bg-success">FINISH</button>
                 </div>
                 <div class="result">
-                    <div>
+                    <div class="score1">
                         <h1>YOU HAVE SCORED = </h1>
                         <h1 id="score"></h1>
                     </div>
+                    <h1 id="remark1"></h1>
                     <h1 id="remark"></h1>
+                    <br>
+                    <a href="../index.html" class="startbtn">LOG-OUT</a>
                 </div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-1 col-1"></div>
